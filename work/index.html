@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<style>
+		h1 { 
+		  color:red; 
+		   font-size:35px;
+		   font-family:Courier;
+		   font-weight:bold;
+		   font-style:italic;
+		   line-height:30px;
+		   letter-spacing:5px;
+		   text-decoration:underline;
+		   text-transform:capitalize;
+		   text-align:center;
+		   text-indent:30px;
+		  font-weight: bold;
+		}
+	</style>
+    <title>Document</title>
+</head>
+<body>
+
+	
+    <h1>INSERTAR PRODUCTOS</h1>
+    <form method = "post" action = "controles/insertar.php">
+            <table>
+                <tr>
+                    <td>NOMBRE </td>
+                    <td> <input type = "texto" name = "nombre"></input> </td>
+                </tr>
+                 
+                <tr>
+                    <td> DESCRIPCION </td><br>
+                    <td> <textarea type = "textarea" rows = "10" cols = "30" name = "descripcion"></textarea> </td>
+                </tr>
+                  
+                <tr>
+                <td> CATEGORIA </td><br>
+                <td> <input type = "texto" name = "categoria"></input> </td>
+                 </tr>
+              
+                <tr>
+                    <td> PRECIO </td><br>
+                    <td> <input type = "texto" name = "precio"></input> </td>
+                </tr>
+
+                <tr>
+                    <td> <input type = "submit" class = "button" name = "guardar"></input> </td>
+                </tr>
+	
+                
+            </table>        
+
+    </form> 
+
+        <div>
+                <a href= "ver.php">Ver Productos</a>
+        </div>
+    
+    
+       
+</body>
+</html>
