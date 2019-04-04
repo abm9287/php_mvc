@@ -1,0 +1,11 @@
+create database pedido;
+
+create table productos
+(
+    id serial,	
+    nombre varchar(250),
+    descripcion varchar(250),
+    categoria varchar(250),
+    precio decimal,
+	primary key(id)
+);
